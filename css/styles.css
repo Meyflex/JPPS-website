@@ -2852,7 +2852,7 @@
  
      display         : flex;
      flex-direction  : column;
-     min-height      : 100%;
+     min-height      : 1%;
      overflow        : hidden;
      position        : relative;
  }
@@ -4283,6 +4283,9 @@
      .ss-go-top {
          right : 2.4rem;
      }
+     
+  
+
  }
  
  @media screen and (max-width: 400px) {
@@ -4301,11 +4304,149 @@
          width  : var(--vspace-1_25);
      }
  }
+ .header{
+    height: 72px;
+ }
  @media screen and (min-width: 900px) {
     .header{
         display: flex;
         width: 100%;
         justify-content: space-between;
+        height: auto;
      }
+
     
  }
+
+
+    
+ 
+
+.main-1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    
+}
+.faq-heading{
+   
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s ease;
+}
+.hr-line{
+  width: 60%;
+  margin:0 auto;
+  transition: all 1s ease;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    /* background-color: #eee; */
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+    padding: 1em 1em;
+    
+    width: 95%;
+    max-width: 700px;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    transition: all 1s ease;
+    margin: 0 auto;
+}
+.faq-body{
+    margin: auto;
+    /* text-align: center; */
+   width: 80%; 
+   max-width: 600px;
+   padding: 1em;
+   transition: all 1s ease;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+    background-color: inherit;
+}
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+    padding: 0 18px;
+    background-color: inherit;
+    display: none;
+    overflow: hidden;
+}
+.faq-page:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 1.5rem;
+    color: rgba(233, 231, 231, 0.85);
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 92%;
+    max-width: 600px;
+    margin-top: 4rem;
+    
+    /* padding: 1em; */
+    /* border: 1px solid red; */
+    
+}
+.s-content__main{
+    padding-bottom: 0;
+    margin: 2rem 0PX;
+    border-bottom:1px solid #2c2c2d;
+    
+}
+.col-full-button{
+    text-align: center;
+    scale: 1;
+    transition: all 0.25s ease;
+}
+form input:focus,form textarea:focus{ 
+    scale: 1.1;
+    
+    
+}
+form input,form textarea{
+   /* background-color:#141516; */
+   scale: 1;
+   width: 100%;
+   
+    
+
+}
+
+.col-six,.col-full,.col-full-button{
+   
+   
+    width: 100%;
+}
+
+.col-full-button .btn:hover,.col-full-button .btn:focus{ 
+    scale: 1.2;  
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 20 auto;
+
+}
+
