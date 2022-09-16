@@ -449,7 +449,7 @@ for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
         /* Toggle between adding and removing the "active" class,
         to highlight the button that controls the panel */
-        this.classList.toggle("active");
+        this.classList.toggle("active1");
         /* Toggle between hiding and showing the active panel */
         var body = this.nextElementSibling;
         if (body.style.display === "block") {
@@ -462,5 +462,22 @@ for (i = 0; i < faq.length; i++) {
 
 
 
+document.getElementById('moveRight').addEventListener('click', function(){
+    var current = document.querySelector('.active');
+    var next = current.nextElementSibling;
+    if(next == null){
+        next = document.querySelector('.carousel-item');
+    }
+    current.classList.remove('active');
+    next.classList.add('active');
+});
 
-
+document.getElementById('moveLeft').addEventListener('click', function(){
+    var current = document.querySelector('.active');
+    var prev = current.previousElementSibling;
+    if(prev == null || prev.classList.contains('carousel__nav')){
+        prev = document.querySelector('.carousel-item:last-child');
+    }
+    current.classList.remove('active');
+    prev.classList.add('active');
+});
