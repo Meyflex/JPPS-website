@@ -3218,7 +3218,7 @@
  }
  
  .s-intro__bg {
-     background-image    : url(../images/intro-bg.jpg);
+     background-image    : url(../images/Intro_Poly.PNG); /* intro-bg.jpg*/
      background-repeat   : no-repeat;
      background-position : center;
      background-size     : cover;
@@ -3234,7 +3234,7 @@
      content          : "";
      display          : block;
      background-color : black;
-     opacity          : .3;
+     opacity          : .25;
      position         : absolute;
      top              : 0;
      left             : 0;
@@ -4594,24 +4594,24 @@ form input,form textarea{
 }
 
 .carousel-item--1 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/991012/pexels-photo-991012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('https://images.pexels.com/photos/11042726/pexels-photo-11042726.jpeg');
 }
 
 
 .carousel-item--2 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/921294/pexels-photo-921294.png?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 
 .carousel-item--3 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/92733/pexels-photo-92733.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 
 .carousel-item--4 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1008732/pexels-photo-1008732.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-image: url('https://images.pexels.com/photos/3363556/pexels-photo-3363556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 }
 
 .carousel-item--5 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1029614/pexels-photo-1029614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: url('');
 }
 
 
