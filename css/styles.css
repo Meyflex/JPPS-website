@@ -3228,6 +3228,8 @@
      right               : 0;
      bottom              : 0;
      left                : 0;
+     background-color: #8d8888;
+     background-blend-mode: multiply;
  }
  
  .s-intro__bg::before {
