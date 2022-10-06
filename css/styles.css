@@ -4732,8 +4732,32 @@ transform: translateX(0);
         }
 }
 .white-background{
-    margin-top: 10rem;
-    
-    background: white;
+    padding: 3rem;
     width: 100%;
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+.logos-poly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+#reversedcolors{
+    background-color: #080809;
+    color: white;
+}
+#pushing-it{
+    margin-top: 5rem;
+}
+#contact{
+ padding-top: 0;
 }
