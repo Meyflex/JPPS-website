@@ -3317,7 +3317,7 @@
      position         : relative;
  }
  
- .s-intro__about::before {
+ /* .s-intro__about::before {
      content          : "";
      display          : block;
      width            : 1px;
@@ -3328,13 +3328,16 @@
      top              : calc(var(--vspace-1) * -1);
      left             : 50%;
  }
- 
+  */
  .s-intro__about .s-intro__about-title {
      text-align    : center;
      font-size     : var(--text-lg);
      line-height   : var(--vspace-1);
      margin-top    : 0;
      margin-bottom : var(--vspace-2);
+ }
+ .s-intro__about p{
+    color: whitesmoke;
  }
  
  /* --------------------------------------------------------------------
@@ -3595,23 +3598,23 @@
  }
  
  .service-icon--product-design {
-     background-image : url(../images/icons/services/icon-product-design.svg);
+     background-image : url(../images/icons/services/online-test.png);
  }
  
  .service-icon--branding {
-     background-image : url(../images/icons/services/icon-branding.svg);
+     background-image : url(../images/icons/services/mecanisme.png);
  }
  
  .service-icon--frontend {
-     background-image : url(../images/icons/services/icon-frontend.svg);
+     background-image : url(../images/icons/services/puce.png);
  }
  
  .service-icon--research {
-     background-image : url(../images/icons/services/icon-research.svg);
+     background-image : url(../images/icons/services/cable.png);
  }
  
  .service-icon--illustration {
-     background-image : url(../images/icons/services/icon-illustration.svg);
+     background-image : url(../images/icons/services/settings.png);
  }
  
  .service-icon--ecommerce {
@@ -4595,27 +4598,26 @@ form input,form textarea{
     margin-bottom: 35px;
 }
 
+
 .carousel-item--1 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/11042726/pexels-photo-11042726.jpeg');
-}
-
-
-.carousel-item--2 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-}
-
-.carousel-item--3 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-}
-
-.carousel-item--4 .carousel-item__image{
-  background-image: url('https://images.pexels.com/photos/3363556/pexels-photo-3363556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-}
-
-.carousel-item--5 .carousel-item__image{
-  background-image: url('');
-}
-
+    background-image: url(../images/pexels-photo-11042726.jpeg);
+  }
+  
+  
+  .carousel-item--2 .carousel-item__image{
+    background-image: url(../images/Embarquer.png);
+  }
+  
+  .carousel-item--3 .carousel-item__image{
+    background-image: url(../images/code.png);
+  }
+  
+  .carousel-item--4 .carousel-item__image{
+    background-image: url(../images/pexels-photo-3363556.jpeg);
+  }
+  
+  
+  
 
 
 .carousel-item__btn {
@@ -4728,4 +4730,10 @@ transform: translateX(0);
           bottom: 0;
 
         }
+}
+.white-background{
+    margin-top: 10rem;
+    
+    background: white;
+    width: 100%;
 }
