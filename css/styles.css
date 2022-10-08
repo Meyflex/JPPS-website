@@ -4099,7 +4099,7 @@
   * ------------------------------------------------------------------- */
  .s-contact {
      background-color : var(--color-gray-14);
-     padding-top      : var(--vspace-5);
+     padding-top      : 1px;
      padding-bottom   : var(--vspace-3);
  }
  
@@ -4741,7 +4741,7 @@ transform: translateX(0);
 
 .logos-poly{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -4757,7 +4757,4 @@ transform: translateX(0);
 }
 #pushing-it{
     margin-top: 5rem;
-}
-#contact{
- padding-top: 0;
 }
