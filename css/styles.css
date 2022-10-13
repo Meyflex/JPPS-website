@@ -3522,23 +3522,23 @@
  }
  
  .service-icon--product-design {
-     background-image : url(../images/icons/services/online-test.png);
+     background-image : url(../images/icons/services/online-test.svg);
  }
  
  .service-icon--branding {
-     background-image : url(../images/icons/services/mecanisme.png);
+     background-image : url(../images/icons/services/mecanisme.svg);
  }
  
  .service-icon--frontend {
-     background-image : url(../images/icons/services/puce.png);
+     background-image : url(../images/icons/services/puce.svg);
  }
  
  .service-icon--research {
-     background-image : url(../images/icons/services/cable.png);
+     background-image : url(../images/icons/services/cable.svg);
  }
  
  .service-icon--illustration {
-     background-image : url(../images/icons/services/settings.png);
+     background-image : url(../images/icons/services/settings.svg);
  }
  
  .service-icon--ecommerce {
@@ -4524,20 +4524,20 @@ form input,form textarea{
 
 
 .carousel-item--1 .carousel-item__image{
-    background-image: url(../images/pexels-photo-11042726.jpeg);
+    background-image: url(../images/portfolio/spé/materiau.svg);
   }
   
   
   .carousel-item--2 .carousel-item__image{
-    background-image: url(../images/Embarquer.png);
+    background-image: url(../images/portfolio/spé/embarquer.svg);
   }
   
   .carousel-item--3 .carousel-item__image{
-    background-image: url(../images/code.png);
+    background-image: url(../images/portfolio/spé/informatique.svg);
   }
   
   .carousel-item--4 .carousel-item__image{
-    background-image: url(../images/pexels-photo-3363556.jpeg);
+    background-image: url(../images/portfolio/spé/optique.svg);
   }
   
   
