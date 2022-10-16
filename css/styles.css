@@ -3544,6 +3544,7 @@
  .service-icon--ecommerce {
      background-image : url(../images/icons/services/icon-ecommerce.svg);
  }
+
  
  /* ------------------------------------------------------------------- 
   * responsive:
@@ -4539,6 +4540,12 @@ form input,form textarea{
   .carousel-item--4 .carousel-item__image{
     background-image: url(../images/portfolio/spé/optique.svg);
   }
+  .carousel-item--5 .carousel-item__image{
+    background-image: url(../images/portfolio/spé/conception.webp);
+  }
+    .carousel-item--6 .carousel-item__image{
+        background-image: url(../images/portfolio/spé/light-bulb-with-drawing-graph.webp);
+    }
   
   
   
