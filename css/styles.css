@@ -3544,6 +3544,7 @@
  .service-icon--ecommerce {
      background-image : url(../images/icons/services/icon-ecommerce.svg);
  }
+
  
  /* ------------------------------------------------------------------- 
   * responsive:
@@ -4434,7 +4435,7 @@ form input,form textarea{
    -webkit-flex-shrink: 0;
     position: absolute;
     z-index: 0;
-  transition: 0.6s all linear;
+  transition: 0.85s all linear;
   
 
 }
@@ -4478,7 +4479,7 @@ form input,form textarea{
     background-size: cover;
    position:relative;
   transform: translateX(100%);
-  transition: 0.6s all ease-in-out;
+  transition: 0.85s all ease-in-out;
 }
 
 .carousel-item__subtitle {
@@ -4506,14 +4507,14 @@ form input,form textarea{
     transform: translateY(25%);
     opacity: 0;
     visibility: hidden;
-    transition: 0.6s all ease-in-out;
+    transition: 0.85s all ease-in-out;
 }
 
 .carousel-item__description {
     transform: translateY(35%);
     opacity: 0;
     visibility: hidden;
-    transition: 0.6s all ease-in-out;
+    transition: 0.85s all ease-in-out;
     margin-top: 35px;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
@@ -4539,6 +4540,12 @@ form input,form textarea{
   .carousel-item--4 .carousel-item__image{
     background-image: url(../images/portfolio/spé/optique.svg);
   }
+  .carousel-item--5 .carousel-item__image{
+    background-image: url(../images/portfolio/spé/conception.webp);
+  }
+    .carousel-item--6 .carousel-item__image{
+        background-image: url(../images/portfolio/spé/light-bulb-with-drawing-graph.webp);
+    }
   
   
   
@@ -4558,7 +4565,7 @@ form input,form textarea{
       transform: translateY(25%);
     opacity: 0;
     visibility: hidden;
-    transition: 0.6s all ease-in-out;
+    transition: 0.85s all ease-in-out;
 }
 
 .carousel__nav {
@@ -4603,14 +4610,14 @@ form input,form textarea{
 .active .carousel-item__subtitle, .active .carousel-item__title, .active .carousel-item__description,.active .carousel-item__btn{
     transform: translateY(0);
     opacity: 1;
-  transition: 0.6s all ease-in-out;
+  transition: 0.85s all ease-in-out;
     visibility: visible;
 }
 
 
 
 .active .carousel-item__image{ 
-transition: 0.6s all ease-in-out;
+transition: 0.85s all ease-in-out;
 transform: translateX(0);
 }
 @media screen and (max-width: 674px) {
@@ -4643,7 +4650,7 @@ transform: translateX(0);
             background-size: cover;
             position:relative;
             transform: translateX(100%);
-            transition: 0.6s all ease-in-out;
+            transition: 1s all ease-in-out;
         }
         .carousel__nav {
             position: absolute;
