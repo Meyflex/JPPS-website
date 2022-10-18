@@ -481,3 +481,18 @@ document.getElementById('moveLeft').addEventListener('click', function(){
     current.classList.remove('active');
     prev.classList.add('active');
 });
+document.getElementById("carousel-slider").addEventListener('touchstart', e => {
+    const touch = e.changedTouches[0];
+    start = [touch.clientX, touch.clientY];
+  });
+  document.getElementById("carousel-slider").addEventListener('touchend', e => {
+    const touch = e.changedTouches[0];
+    const end = [touch.clientX, touch.clientY];
+    // document.body.innerText = `${end[0] - start[0]},${end[1] - start[1]}`;
+    if (end[0] - start[0] > 100) {
+        document.getElementById('moveLeft').click();
+    } else if (end[0] - start[0] < -100) {
+        document.getElementById('moveRight').click();
+    }
+
+  });
