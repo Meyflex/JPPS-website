@@ -2712,6 +2712,21 @@
      margin-top                : 0;
      color: #020202;
  }
+  
+ .text-display-title2 {
+    --text-display-title-size : 3.6rem;
+    --text-multiplier         : 1;
+    font-family               : var(--font-2);
+    font-size                 : calc(var(--text-display-title-size) * var(--text-multiplier));
+    font-weight               : 600;
+    line-height               : 1.2857;
+    margin-top                : 0;
+    color: #020202;
+}
+
+
+
+
  .text-display-title {
     --text-display-title-size : 5.6rem;
     --text-multiplier         : 1;
